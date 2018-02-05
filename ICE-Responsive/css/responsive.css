@@ -1,0 +1,31 @@
+/*-----MAIN-----*/
+html {
+  box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+}
+
+@media only screen and (min-width: 650px){
+	.top-nav ul{
+		text-align:center;
+	}
+	.top-nav ul li{
+		display:inline-block;
+	}
+}
+
+@media only screen and (min-width: 1000px){
+	.logo{
+		
+	}
+
+	.top-nav ul{
+
+	}
+
+	/*Need to split divs into two columns*/
+	.photo-grid{
+		width: 48%;
+	}
+}
