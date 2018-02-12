@@ -16,6 +16,7 @@ html, body{
 }
 
 @media only screen and (min-width: 1000px){
+
 	.logo{
 		
 	}
@@ -26,6 +27,21 @@ html, body{
 
 	/*Need to split divs into two columns*/
 	.photo-grid{
-		width: 48%;
+		display:grid;
+		grid-template-columns:repeat(2, 1fr);
+		align-content:center;
+		grid-column-gap: 1em;
+		width: 80%;
 	}
+/*
+	.photo-cell-a{
+		display: flex;
+		grid-column-start:1;
+	}
+
+	.photo-cell-b{
+		display: flex;
+		grid-column-start:2;
+	}*/
 }
+
