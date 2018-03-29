@@ -190,9 +190,10 @@ box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
 	width: 100%;
 }
 
-#about{
+.about{
 	background-color: #648880;
 	margin: 5%;
+	border-radius: 12px;
 
 }
 #about-words{
@@ -209,8 +210,17 @@ box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
 /*-----CONTACT PAGE ------*/
 
 .vcard{
-	background-image: url('img/logo.jpg')
+	height: 25%;
+	width: 25%;
 }
+
+.learning {
+ background-image: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/blackorchid.png) !important;
+ background-repeat: repeat-x;
+ background-position: bottom;
+ height: 500px;
+ width: 500px;   
+}​
 
 
 
