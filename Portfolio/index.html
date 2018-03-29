@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>	
+<html lang="en">
+<head>
+	<title>Zach's Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--Style-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<style>
+		.mySlides {display:none;}
+	</style>
+
+
+</head>
+<body class="body body-home">
+	<a href="#main-content" class="skip">Skip navigation</a> 
+	<header>
+		<nav id = "top-nav" class="top-nav">
+			<div class="logo">      	
+			<a href="index.html"><img src="img/logo.jpg" alt="Picture of Zach's Face"></a>
+       		</div>
+	       <ul>
+	            <li><a class="current-page" href="index.html">HOME</a></li>
+	            <li><a href="about.html">ABOUT</a></li>
+	            <li><a href="contact.html">CONTACT</a></li>
+	            <li><a href="extra.html">EXTRA</a></li>
+	        </ul>   
+   		</nav>
+	</header>
+	<div class = 'explain-pics'>
+		<h3>My name is Zach and I am very interested in ferocious animals, movies, and cooking.</h3>
+	</div>
+	<div id = 'banner' >
+		<img class="mySlides" src="img/lion.jpg" style="width:100%">
+		<img class="mySlides" src="img/movies.jpg" style="width:100%">
+		<img class="mySlides" src="img/cooking.png" style="width:100%">
+
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("mySlides");
+		    for (i = 0; i < x.length; i++) {
+		       x[i].style.display = "none";  
+		    }
+		    myIndex++;
+		    if (myIndex > x.length) {myIndex = 1}    
+		    x[myIndex-1].style.display = "block";  
+		    setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+		</script>
+	</div>
+
+	<div id = "about">
+		<p id = 'about-words'> Hello, My name is Zach Sherman. I am a soon-to-be alumnus of the University of Michigan's School of Information. I love my family, including my mother, Pam, my father, Neal, and my sister, Eliza.
+		</p>
+	</div>
+
+	<div id = 'about' class = "song">
+		<p class = 'initial-song'> My favorite song at the moment is <strong> The Middle </strong> by Zedd</p>
+		<p id = 'lyrics'> Here are some of the lyrics: <br/> <br/> </p>
+			<ol class = 'lyrics-list'>
+				<li>Oh baby, why don't you just meet me in the middle?</li>
+				<li>I'm losing my mind just a little</li>
+				<li>So why don't you just meet me in the middle?</li>
+				<li>In the middle</li>
+				<li>Baby, why don't you just meet me in the middle?</li>
+				<li>I'm losing my mind just a little</li>
+				<li>So why don't you just meet me in the middle?</li>
+				<li>In the middle</li>
+			</ol>
+		<a href="https://www.youtube.com/watch?v=Lj6Y6JCu-l4"><strong>Here is a video that has the lyrics in video form. A very fun and exciting video! </strong></a>
+	</div>
+	<footer class="footer">
+		<p>This is Zach Sherman's Website &copy; 2018</p>
+	</footer>
+</body>
+</html>

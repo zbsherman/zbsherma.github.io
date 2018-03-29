@@ -1,0 +1,28 @@
+form {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #9cbc2c;
+    border: 5% 5% 5% 5%;
+    border-color: red;
+}
+
+label, input {
+    /* in order to define widths */
+    display: block;
+}
+
+label {
+    /* positions the label text beside the input */
+    text-align: left;
+}
+
+
+input {
+    width: 30%;
+    
+}
+input[name=position], input[name=GPA]{
+    display: inline-block;
+    width: 5%;
+}
+​
