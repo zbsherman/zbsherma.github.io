@@ -246,39 +246,42 @@ width: 98%;
 	background-image :url('https://usercontent1.hubstatic.com/13347264_f1024.jpg');
 
 }
-
+/*
 .boy{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
 
-}
+}*/
 
 .learning{
-	
 	background: black;
 	opacity: .9;
 	margin: auto;
-	width: 50%;
-	margin-bottom: : 20px;
-	grid-column: 2/ 4;
-	grid-row: 1/2;
+}
+
+.vids{
+	margin-top: 5%;
 }
 
 .animal-video{
-	grid-column: 1/ span 3;
-	grid-row : 2/3;
+	width: 100%;
+	display:block;
+
+
 }
 
 .animal-video2{
-	grid-column: 3 / span 3;
-	grid-row: 2/3;
+	width: 100%;
+	display: block;
+
 }
+
+
 
 .learning-words{
 	color: green;
 	margin: auto 0;
-
 }
 
 .contact-body{
