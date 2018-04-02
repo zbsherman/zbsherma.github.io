@@ -91,7 +91,7 @@ font-size: 105%;
 
 
 .body-home{
-	background-color: orange;
+	background-color: #6699ff;
 }
 /*mobile-first*/
 .top-nav ul{
@@ -257,6 +257,18 @@ margin-left: 2%;
 width: 98%;
   display: block;
   box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
+  max-width: 100%;
+  height: auto;
+}
+
+}
+
+
+
+/*Extra*/
+
+.body-extra{
+	display: grid;
 }
 
 
