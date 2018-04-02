@@ -246,18 +246,18 @@ width: 98%;
 	background-image :url('https://usercontent1.hubstatic.com/13347264_f1024.jpg');
 
 }
-/*
-.boy{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
 
-}*/
+.boy{
+	margin-top: 10px;
+
+}
 
 .learning{
 	background: black;
 	opacity: .9;
-	margin: auto;
+	color: green;
+	margin: auto 0;
+
 }
 
 .vids{
@@ -277,12 +277,6 @@ width: 98%;
 
 }
 
-
-
-.learning-words{
-	color: green;
-	margin: auto 0;
-}
 
 .contact-body{
 	margin: auto;

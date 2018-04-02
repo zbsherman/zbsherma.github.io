@@ -37,6 +37,12 @@ html, body{
 		margin: auto;
 
 	}
+@media only screen and (min-width: 800px){
+	.learning{
+		width: 50%;
+		margin: 0 auto;
+	}
+}
 
 @media only screen and (min-width: 1000px){
 
