@@ -133,7 +133,7 @@ display: block;
 
 /*-----LOGO-----*/
 .logo{
-background-color: #211D24; /*CHANGE*/
+/*background-color: #211D24; /*CHANGE*/
 margin: 0;
 text-align: center;
 padding: .25em .75em;
@@ -144,7 +144,6 @@ height: 3em;
 
 /*-----FOOTER-----*/
 footer{
-/*color: #F54320;*/
 font-size: .85em;
 text-align: center;
 box-shadow: 0px -10px 30px 2px rgba(141, 141, 139, .75);
@@ -206,10 +205,37 @@ box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
 	list-style-type: none;
 }
 /*-----CONTACT PAGE ------*/
+.contact-body{
+	padding-top: 10px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-row-gap: 5px;
+	grid-column-gap: 5px;
+}
+
+
+
+.contact-preface{
+	border-radius: 3px;
+	background: #466368;
+	grid-column: 2 / span 2;
+	overflow: scroll;
+}
+
+.ask-head{
+	text-align: center;
+}
 
 .vcard{
-	height: 25%;
-	width: 25%;
+	grid-column: 1 / span 2;
+	grid-row: 2;
+	background: #466368;
+}
+
+.end-pic{
+	grid-column: 3 / span 2;
+	grid-row: 2;
 }
 
 
@@ -238,6 +264,7 @@ width: 98%;
 
 .body-extra{
 	display: grid;
+
 }
 
 /*About*/
@@ -274,11 +301,5 @@ width: 98%;
 .animal-video2{
 	width: 100%;
 	display: block;
-
-}
-
-
-.contact-body{
-	margin: auto;
 }
 
