@@ -59,6 +59,7 @@ text-decoration: none;
 padding: .5em 1em;
 display: block;
 text-align: center;
+transition: background-color;
 }
 
 
@@ -71,6 +72,9 @@ border-left: 3px solid #F54320;
 border-bottom: 3px solid #F54320;
 }
 
+.top-nav ul li a:hover{
+	background-color: purple; 
+}
 
 /*-----LOGO-----*/
 .logo{
