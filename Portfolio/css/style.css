@@ -177,6 +177,11 @@ max-width: 1200px;
 margin-bottom: 2%;
 margin-left: 2%;
 }
+
+.photo-cell img:hover{
+	transform: scale(1.2);
+}
+
 .photo-cell img {
 width: 98%;
  display: block;
