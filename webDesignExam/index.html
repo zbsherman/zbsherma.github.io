@@ -1,6 +1,7 @@
 <!DOCTYPE html>	
 <html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Zach Sherman Exam</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -9,19 +10,22 @@
 		function hid(){
 			var img = document.getElementById('colleen');
 			var si = document.getElementById('si');
-			img.style.display = 'none'
-			si.style.width = '50%'
+			var wrap = document.getElementById('wrap');
+			img.style.display = 'none';
+			wrap.style.justifyContent = 'center';
+			si.style.width = '50%';
 
 		};
 
 		function brin(){
 			var img = document.getElementById('colleen');
 			img.style.display = 'inline-block'
+			wrap.style.justifyContent = 'center'
 		}
 
 	</script>
 </head>
-<body>
+<body >
 	<h1> Zach Sherman</h1>
 	<br>
 	<div id = 'wrap'>
