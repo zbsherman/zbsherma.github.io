@@ -1,8 +1,35 @@
 <!DOCTYPE html>	
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Zach Sherman Exam</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script>
+		function hid(){
+			var img = document.getElementById('colleen');
+			var si = document.getElementById('si');
+			img.style.display = 'none'
+			si.style.width = '50%'
+
+		};
+
+		function brin(){
+			var img = document.getElementById('colleen');
+			img.style.display = 'inline-block'
+		}
+
+	</script>
 </head>
 <body>
+	<h1> Zach Sherman</h1>
+	<br>
+	<div id = 'wrap'>
+		<img class = 'im' id = 'colleen' src = 'images/examPic.JPG' alt = 'Exam pic of Colleen'/>
+		<img class = 'im' id = 'si' src = 'images/UMSI-logo.jpg' alt = 'UMSI logo'/>
+	</div>
+	<br>
+	<button type = 'button' class = 'but' onclick = 'hid()'> Hide Image </button>
+	<button type = 'button' class = 'but' onclick = 'brin()'> Show Image </button>
 </body>
 </html>

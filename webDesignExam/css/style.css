@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+}
+
+body{
+	background-image: url('tic-tac-toe.png');
+}
+
+#wrap{
+	display : flex;
+	width: 100%;
+	justify-content: center;
+	flex-flow: row;
+}
+
+
+.im{
+	margin: 0;
+	border: 5px solid blue;
+	padding: 5%;
+	width: 50%;
+	object-fit: contain;
+}
+
+#colleen{
+
+}
+
+#si{
+
+}
