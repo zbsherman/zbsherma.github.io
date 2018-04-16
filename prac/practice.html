@@ -10,18 +10,16 @@
 	<script>
 		function erase(){
 			var img = document.getElementById('image');
-			img.style.display = 'none' ;
-		}
-
-		function bring(){
-			var img = document.getElementById('image');
-			img.style.display = 'block';
-		}
-
+			if(img.style.display === 'none'){
+				img.style.display = 'block';
+			} else{
+				img.style.display = 'none'
+			};
+		};
 
 		function chan(){
 			document.getElementById('wor').innerHTML = 'Paragraph now changed';
-		}
+		};
 
 
 
@@ -44,8 +42,7 @@
 	<div id = 'head' >
 		<h3>My name is Zach</h3>
 	</div>
-	<button type = 'button' onclick = 'erase()'> Click to get rid of picture below </button>
-	<button type = 'button' onclick = 'bring()'> Click to bring picture back </button>
+	<button type = 'button' onclick = 'erase()'> Click to toggle picture </button>
 	<br>
 
 	<img id = 'image' src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/280px-PNG_transparency_demonstration_1.png' alt = 'multicolored dice'/>
@@ -53,6 +50,8 @@
 
 	<p id = 'wor' onclick = 'chan()'> Click on these words</p>
 	<br><br>
+
+	<p>Make the window smaller or bigger for a surprise</p>
 
 	<div class = 'blox'>A</div>
 	<div class = 'blox'>B</div>

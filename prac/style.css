@@ -1,6 +1,6 @@
 
 .blox{
-	background-color: green;
+	background-color: red;
 	display: inline-block;
 	height: 25px;
 	width: 25px;
@@ -9,7 +9,7 @@
 
 @media only screen and (min-width: 700px){
 	.blox{
-		background-color: red;
+		background-color: blue;
 	}
 }
 
