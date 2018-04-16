@@ -1,0 +1,52 @@
+---
+layout: default
+title: Zach's Portfolio
+---
+
+	<div class = 'explain-pics'>
+		<h3>My name is Zach and I am very interested in ferocious animals, movies, and cooking.</h3>
+	</div>
+	<div id = 'banner' >
+		<img class="mySlides" src="img/lion.jpg" style="width:100%" alt = 'Picture of a Lion Roaring'>
+		<img class="mySlides" src="img/movies.jpg" style="width:100%" alt = 'Picture of popcorn and a movie reel to symbolize movies'>
+		<img class="mySlides" src="img/cooking.png" style="width:100%" alt = 'Picture of a person chopping some vegetables on a cutting board in a kitchen'>
+
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("mySlides");
+		    for (i = 0; i < x.length; i++) {
+		       x[i].style.display = "none";  
+		    }
+		    myIndex++;
+		    if (myIndex > x.length) {myIndex = 1}    
+		    x[myIndex-1].style.display = "block";  
+		    setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+		</script>
+	</div>
+
+	<div class = "about">
+		<p id = 'about-words'> Hello! My name is Zach Sherman. I am a soon-to-be alumnus of the University of Michigan's School of Information. I love my mother, Pam, my father, Neal, and my sister, Eliza.
+		</p>
+	</div>
+
+	<div class = "about song">
+		<p class = 'initial-song'> A song I am hearing a lot at the moment is <strong> The Middle </strong> by Zedd</p>
+		<p id = 'lyrics'> Here are some of the lyrics: <br/> <br/> </p>
+			<ol class = 'lyrics-list'>
+				<li>Oh baby, why don't you just meet me in the middle?</li>
+				<li>I'm losing my mind just a little</li>
+				<li>So why don't you just meet me in the middle?</li>
+				<li>In the middle</li>
+				<li>Baby, why don't you just meet me in the middle?</li>
+				<li>I'm losing my mind just a little</li>
+				<li>So why don't you just meet me in the middle?</li>
+				<li>In the middle</li>
+			</ol>
+		<a href="https://www.youtube.com/watch?v=Lj6Y6JCu-l4"><strong>Here is a video that has the lyrics in video form. A very fun and exciting video! </strong></a>
+	</div>
+	

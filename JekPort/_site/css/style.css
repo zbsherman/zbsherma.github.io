@@ -1,0 +1,233 @@
+/*-----MAIN-----*/
+html, body{
+height: 100%;
+padding-top: 100px;
+}
+
+body{
+margin: 0;
+}
+html, body, header, footer{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+header, footer, .logo {
+  background: linear-gradient(to right bottom, #648880, #293f50);
+}
+
+
+h1, h2, h3, h4, h5, h6{
+font-family: 'Quicksand', sans-serif;
+}
+
+p{
+font-family: 'Quicksand', sans-serif;
+}
+
+
+/*-----HEADER & NAVIGATION-----*/
+header{
+	position: fixed;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 105%;
+	width: 100%;
+	top: 0;
+	z-index: 10;}
+
+.body-home{
+	background-color: #6699ff;
+}
+
+/*mobile-first*/
+.top-nav ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: block;
+}
+
+.top-nav ul li, .menu-icon{
+border-top: 1px solid #DDDDDA; 
+}
+
+
+.top-nav ul li a{
+font-size: 1em;
+color: #DDDDDA;
+text-decoration: none;
+padding: .5em 1em;
+display: block;
+text-align: center;
+transition: background-color;
+}
+
+
+
+.top-nav ul li a.current-page{
+color: #F54320;
+font-weight: bold;
+border-right: 3px solid #F54320;
+border-left: 3px solid #F54320;
+border-bottom: 3px solid #F54320;
+}
+
+.top-nav ul li a:hover{
+	background-color: purple; 
+}
+
+/*-----LOGO-----*/
+.logo{
+margin: 0;
+text-align: center;
+padding: .25em .75em;
+}
+
+
+.logo img{
+height: 3em;
+}
+
+/*-----FOOTER-----*/
+footer{
+font-size: .85em;
+text-align: center;
+position: relative;
+bottom: 0;
+width: 100%;
+}
+
+footer p{
+padding-top: .5em;
+padding-bottom: .75em;
+}
+
+/*-----HOMEPAGE-----*/
+
+.explain-pics{
+	text-align: center;
+
+}
+#banner{
+	width: 95%;
+	margin: auto;
+	border: 5px solid black;
+}
+
+.about{
+	background-color: #648880;
+	margin: 5%;
+	border-radius: 12px;
+
+}
+#about-words{
+	margin: 2%;
+}
+
+.initial-song{
+	font-size: 25px;
+}
+
+.lyrics-list{
+	list-style-type: none;
+}
+
+
+/*-----CONTACT PAGE ------*/
+.contact-body{
+	padding-top: 10px;
+
+}
+
+
+
+.contact-preface{
+	border-radius: 3px;
+	width: 99%;
+	margin: auto;
+	background: #466368;
+
+}
+
+.ask-head{
+	text-align: center;
+}
+
+.vcard{
+	width: 97%;
+	margin: auto;
+
+	background: #466368;
+}
+
+.end-pic{
+	display: block;
+	margin: auto;
+}
+
+
+/*-----EXTRA PAGE ------*/
+/*photo gallery*/
+.crafts{
+display: block;
+margin: auto;
+max-width: 1200px;
+}
+.photo-cell{
+margin-bottom: 2%;
+margin-left: 2%;
+}
+
+.photo-cell img:hover{
+	transform: scale(1.2);
+}
+
+.photo-cell img {
+width: 98%;
+ display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.body-extra{
+	display: grid;
+
+}
+
+
+/*About*/
+
+.body-about{
+	background-image :url('https://usercontent1.hubstatic.com/13347264_f1024.jpg');
+
+}
+
+.boy{
+	margin-top: 10px;
+
+}
+
+.learning{
+	background: black;
+	opacity: .9;
+	color: green;
+	margin: auto 0;
+
+}
+
+.vids{
+	margin-top: 5%;
+}
+
+.animal-video{
+	width: 100%;
+	display:block;
+
+
+}
+
+.animal-video2{
+	width: 100%;
+	display: block;
+}
+
