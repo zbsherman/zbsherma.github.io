@@ -1,0 +1,20 @@
+
+.blox{
+	background-color: green;
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+}
+
+
+@media only screen and (min-width: 700px){
+	.blox{
+		background-color: red;
+	}
+}
+
+@media only screen and (min-width: 1000px){
+	.blox{
+		background-color: green;
+	}
+}

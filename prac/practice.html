@@ -1,0 +1,68 @@
+<!DOCTYPE html>	
+<html lang="en">
+<head>
+	<title>Practice</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--Style-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script>
+		function erase(){
+			var img = document.getElementById('image');
+			img.style.display = 'none' ;
+		}
+
+		function bring(){
+			var img = document.getElementById('image');
+			img.style.display = 'block';
+		}
+
+
+		function chan(){
+			document.getElementById('wor').innerHTML = 'Paragraph now changed';
+		}
+
+
+
+
+
+	</script>
+</head>
+<body>
+	<header>
+<!-- 		<nav id = "top-nav" class="top-nav">
+	       <ul>
+	            <li><a class="current-page" href="index.html">HOME</a></li>
+	            <li><a href="about.html">ABOUT</a></li>
+	            <li><a href="contact.html">CONTACT</a></li>
+	            <li><a href="extra.html">EXTRA</a></li>
+	        </ul>   
+   		</nav> -->
+	</header>
+
+	<div id = 'head' >
+		<h3>My name is Zach</h3>
+	</div>
+	<button type = 'button' onclick = 'erase()'> Click to get rid of picture below </button>
+	<button type = 'button' onclick = 'bring()'> Click to bring picture back </button>
+	<br>
+
+	<img id = 'image' src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/280px-PNG_transparency_demonstration_1.png' alt = 'multicolored dice'/>
+	<br><br>
+
+	<p id = 'wor' onclick = 'chan()'> Click on these words</p>
+	<br><br>
+
+	<div class = 'blox'>A</div>
+	<div class = 'blox'>B</div>
+	<div class = 'blox'>C</div>
+
+
+
+
+	<footer class="footer">
+		<p>This is the footer</p>
+	</footer>
+</body>
+</html>
